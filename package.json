@@ -1,0 +1,25 @@
+{
+  "name": "rainbowsocks",
+  "version": "0.1.0",
+  "description": "SOCKS4a proxy client",
+  "main": "index.js",
+  "dependencies": {
+    "debug": "~0.7.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "keywords": [
+    "SOCKS",
+    "SOCKS4a",
+    "proxy",
+    "tor",
+    "client",
+    "tunnel"
+  ],
+  "author": "Ben Evans <ben@bensbit.co.uk> (http://bensbit.co.uk)",
+  "license": "MIT",
+  "readmeFilename": "README.md"
+}
