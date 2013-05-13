@@ -2,6 +2,10 @@
 
 SOCKS4a client developed with rainbows
 
+## Install
+
+`npm install rainbowsocks`
+
 ## API
 
 ### var rainbowsocks = new RainbowSocks(port, [host])
@@ -42,7 +46,7 @@ Connected to proxy
 ## Example
 
 ```javascript
-var RainbowSocks = require('./');
+var RainbowSocks = require('rainbowsocks');
 var festival = new RainbowSocks(8080, '192.168.0.45');
 
 festival.on('connect', function() {
