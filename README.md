@@ -47,11 +47,11 @@ Connected to proxy
 
 ```javascript
 var RainbowSocks = require('rainbowsocks');
-var festival = new RainbowSocks(8080, '192.168.0.45');
+var sock = new RainbowSocks(8080, '192.168.0.45');
 
-festival.on('connect', function() {
+sock.on('connect', function() {
   console.log('Connected to proxy');
-  festival.connect('www.google.com', 80, function(err, socket) {
+  sock.connect('www.google.com', 80, function(err, socket) {
     if(err) throw err;
     console.log('Connected to www.google.com');
     socket.write('GET / HTTP/1.1\nHost: www.google.com\n\n');
