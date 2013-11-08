@@ -24,6 +24,9 @@ var RainbowSocks = function(port, host) {
   this.socket.on('connect', function() {
     _this.emit('connect');
   });
+  this.socket.on('error', function(err) {
+    _this.emit('error', err);
+  });
   return this;
 };
 
