@@ -1,6 +1,6 @@
 {
   "name": "rainbowsocks",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "SOCKS4a proxy client",
   "main": "index.js",
   "dependencies": {
