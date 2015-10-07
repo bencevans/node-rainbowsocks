@@ -21,6 +21,7 @@ describe('RainbowSocks', function() {
 
   describe('#connect', function() {
     it('should open a socket', function(done) {
+      this.timeout(20 * 1000)
       sock.connect('www.google.com', 80, function(err, socket) {
         if(err) return next(err);
         assert(socket.readable);
